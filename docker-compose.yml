@@ -1,0 +1,8 @@
+version: '3'
+services:
+  amgcl:
+    image: amgcl-cpu:latest
+    working_dir: '/data'
+    tty: true
+    volumes:
+      - ./data:/data
