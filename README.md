@@ -20,6 +20,7 @@ docker-compose up -d
 docker exec -it amgcl_cpu_1 /bin/bash
 
 # turn emcc enable
+apt install python3
 source ./emsdk/emsdk_env.sh
 
 # make amgcl.js and amgcl.wasm
